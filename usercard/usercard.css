@@ -1,0 +1,28 @@
+.container {
+    background-color: white;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0 auto;
+    
+}
+
+.profile-image {
+    position: absolute;
+    top: -60;
+}
+
+.profile-header2 {
+    padding: 15px;
+    position: relative;
+    padding-top: 20px;
+    
+}
+
+.profile-header {
+    height: 150px;
+    background-color:cyan;
+}
+
+p {
+    line-height: 5px;
+}
