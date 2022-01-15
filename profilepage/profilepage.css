@@ -1,0 +1,165 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+
+}
+.nav {
+    background-color: #333333;
+    
+}
+
+.nav-title {
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin: 15px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+button {
+    color: white;
+    background-color: #26a2b8;
+    box-shadow: black;
+    box-shadow: black 2px 2px 2px 2px;
+    font-weight: 800;
+}
+
+.nav-container {
+    display: flex;
+    padding: 4px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.page-size {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.profile {
+    background-color: white;
+    width: 500px;
+    display: inline-block;
+}
+.connections {
+    background-color: white;
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    border: black;
+}
+.profile-card {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.profile-image {
+    position: absolute;
+    top: -60;
+    margin-top: -25;
+}
+
+.profile-header2 {
+    padding: 50px;
+    position: relative;
+    padding-top: 20px;
+    margin-top: 30px;
+    
+}
+
+.profile-header {
+    height: 150px;
+    background-color:cyan;
+}
+
+p {
+    line-height: normal;
+    
+}
+
+.side-title {
+    background-color: black;
+    color: white; 
+    
+    
+}
+
+h2 {
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.fa-solid {
+    text-align: left;
+}
+
+.side-nav { 
+    border: 2px solid black;
+    margin-top: 15px;
+    width: 350px;
+}    
+
+.side-title span {
+    color: black;
+    background-color: lightgrey;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 0px 8px;
+    margin-bottom: 5px;
+    height: 25px;
+}
+
+.side-title p {
+    padding: 15px;
+}
+
+.container-education {
+    border: 2px solid black;
+    width: 550px;
+    height: 300px;
+}
+
+.container-education h4 {
+    margin: 5px;
+}
+
+.container-education p {
+    margin: 5px;
+}
+
+.container-education h5 {
+    margin: 5px;
+}
+
+.container-education span {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 15px;
+}
+
+.names img {
+    height: 20px;
+}
+
