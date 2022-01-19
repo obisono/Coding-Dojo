@@ -1,0 +1,66 @@
+.nav-title input {
+    width: 300px;
+    margin: 15px;
+    }
+
+.container1 {
+    display: inline-block;
+    border: solid #73AD21 3px;
+    margin: 50px;
+    width: 350px;
+    padding: 10px;
+}
+
+.container2 {
+    display: inline-block;
+    border: solid #73AD21 3px;
+    margin: 50px;
+    width: 350px;
+    padding: 10px;
+
+}
+
+.container-right {
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+
+.navbar {
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+    
+
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    box-shadow: black 2px 2px 2px 2px;
+    font-weight: 5px;
+    width: 100px;
+}
+
+.ninja p {
+    font-style: italic;
+}
+
+button {
+    color: white;
+    background-color: turquoise;
+    
+}
+
+.add-definition {
+    color: white;
+    background-color: turquoise;
+}
