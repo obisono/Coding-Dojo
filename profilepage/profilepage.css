@@ -68,6 +68,7 @@ button {
     padding: 5px;
     border: black;
 }
+
 .profile-card {
     border: 2px solid black;
     margin: 20px 0;
@@ -161,5 +162,21 @@ h2 {
 
 .names img {
     height: 20px;
+    display: inline-block;
 }
 
+#alayne h2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    display: inline-block;
+    font: roboto;
+}
+
+#phil h2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    display: inline-block;
+    font: roboto;
+}

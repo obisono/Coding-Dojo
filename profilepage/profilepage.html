@@ -24,13 +24,13 @@
                 <div class="profile-header"></div>
                 <div class="profile-header2">                           
                     <img src="https://i.pravatar.cc/100?img=58"  class="profile-image" alt=""> 
-                    <h1>Oliver "Bricks" Esteban</h1>
+                    <h1 id="profile-name"> Oliver "Bricks" Esteban</h1>
                     <p>
                         <i class="fas fa-map-marker-alt"></i>   Seattle
                     </p>
                     <p>Developer | Engineer | Problem Solver</p>
                     <p>Masters of shadows on the internet!</p>    
-                    <a href="https://www.youtube.com/watch?v=IO9XlQrEt2Y"><i class="fas fa-cog"></i> edit profile</a>                      
+                    <a id="edit-profile-name"><i class="fas fa-cog"></i> edit profile</a>                      
                 </div>
             </div>
             <div class="container-education"> 
@@ -46,30 +46,22 @@
                     <p><span>2</span> &nbsp Connection Request</p>
                 </div>
                 <div class="names">
-                    <li>
-                        <span> 
-                            <i class="fa fa-solid fa-user"></i>
-                            &nbsp; Todd E 
-                        </span>
-                        <span> 
-                            <img src="icons-2/accept-circle.png" alt="">                            
-                        </span>
-                        <span> 
-                            <img src="icons-2/close-circle.png" alt="">
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <i class="fa fa-solid fa-user"></i>           
-                            &nbsp; Hil K 
-                        </span>
-                        <span> 
-                            <img src="icons-2/accept-circle.png" alt="">
-                        </span>
-                        <span>
-                            <img src="icons-2/close-circle.png" alt="">
-                        </span>
-                    </li>
+                    <div id="alayne">
+                        <li>
+                            <img src="alayne-s.jpg" alt="">
+                            <h2>Alayne S</h2>
+                            <span onclick="hide()"> <img src="accept-circle.png"></span>
+                            <span onclick="hide()"> <img src="close-circle.png"></span>
+                        </li>
+                    </div>
+                    <div id="phil">
+                        <li>
+                            <img src="phil-s.jpg">
+                            <h2>Phil S</h2>
+                            <span onclick="hide()"> <img src="accept-circle.png"></span>
+                            <span onclick="hide()"> <img src="close-circle.png"></span>
+                        </li>
+                    </div>
                 </div>
             </div>        
             <div class="side-nav">
@@ -86,7 +78,7 @@
         </div>                    
     </div>                        
 
-
+    <script src="profilepage.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
 </body>
 
